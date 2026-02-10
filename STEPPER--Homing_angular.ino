@@ -79,8 +79,7 @@ long primerFlanco = 0;  // posición de entrada al imán
 long segundoFlanco = 0; // posición de salida del imán
 long centro = 0;        // posición central calculada
 
-// ⚠️ bandera de error
-bool homingFallo = false;
+bool homingFallo = false; // marca si hubo falla en homing
 
 // =======================================================================
 // SETUP
